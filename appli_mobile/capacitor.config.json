@@ -1,0 +1,8 @@
+{
+  "appId": "fr.lhommeaymeric.photoserv",
+  "appName": "photo-serv",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}

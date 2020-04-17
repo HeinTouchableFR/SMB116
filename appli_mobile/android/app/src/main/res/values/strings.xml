@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">photo-serv</string>
+    <string name="title_activity_main">photo-serv</string>
+    <string name="package_name">fr.lhommeaymeric.photoserv</string>
+    <string name="custom_url_scheme">fr.lhommeaymeric.photoserv</string>
+</resources>

@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Appli PHOTO
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <img [src]="photo" style="width: 100%; height: auto; margin: auto; display: block">
+
+  <ion-fab vertical="bottom" horizontal="center" style="display: flex; margin: auto -78px; position: fixed">
+    <ion-fab-button (click)="takePicture()" style="padding: 3px;">
+      <ion-icon name="camera"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button (click)="gallery()" style="padding: 3px;">
+      <ion-icon name="image-outline"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button (click)="upload()" style="padding: 3px;">
+      <ion-icon name="cloud-upload-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>
