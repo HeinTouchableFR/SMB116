@@ -105,6 +105,9 @@
             "./config/packages/fos_rest.yaml"
         ]
     },
+    "gesdinet/jwt-refresh-token-bundle": {
+        "version": "v0.9.1"
+    },
     "hoa/compiler": {
         "version": "3.17.08.08"
     },
