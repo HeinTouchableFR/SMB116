@@ -86,4 +86,19 @@ class PictureController extends AbstractFOSRestController{
 
         return $picture;
     }
+/*
+    /**
+     * @Route("/{id}", name="admin.picture.show")
+     * @param Picture $item
+     * @return Response
+     */
+    /*public function index($id, PictureRepository $repository){
+        $picture = $repository->findBy([
+            'code' => $id
+        ]);
+        return $this->render('picture.html.twig', [
+            'picture' => $picture
+        ]);
+    }
+*/
 }

@@ -11,7 +11,7 @@
             <a href="{{ path('app_login') }}">Connexion</a>
         {% endif %}
         {% if is_granted('IS_AUTHENTICATED_FULLY') %}
-            {{ app.user.email }}
+            {{ app.user.login }}
             <br />
             <br />
             <a href="{{ path('app_logout') }}">Déconnexion</a>

@@ -1,0 +1,13 @@
+<ion-content>
+  <img class="logo" src="/assets/logo.png" alt="logo">
+
+  <div class="login-form">
+    <input type="text" id="login" placeholder="Login" [(ngModel)]="username"/>
+    <input type="password" id="password" placeholder="Mot de passe" [(ngModel)]="password"/>
+  </div>
+
+  <div class="center">
+    <ion-button shape="round" color="success" (click)="login()">Se connecter</ion-button>
+    <ion-button shape="round" color="danger">Créer un compte</ion-button>
+  </div>
+</ion-content>
